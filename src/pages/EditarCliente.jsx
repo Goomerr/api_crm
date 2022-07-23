@@ -1,8 +1,6 @@
 import Formulario from "../components/Formulario";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import Spinner from "../components/Spinner";
-
 
 const EditarCliente = () => {
 
@@ -14,7 +12,7 @@ const EditarCliente = () => {
   useEffect(() => {
     const obtenerClientesApi = async () => {
       try {
-        const url = `http://localhost:4000/clientes/${id}`;
+        const url = `${import.meta.env.VITE_API_URL}/${id}`;
 
         const respuesta = await fetch(url);
 

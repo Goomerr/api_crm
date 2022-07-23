@@ -22,7 +22,7 @@ const Clientes = ({ cliente, handleEliminar }) => {
       <td className="p-3">{empresa} </td>
       <td className="p-3">
         <button
-          onClick={() => navigate(`/clientes/${id}`)}
+          onClick={() => navigate(`/${id}`)}
           type="button"
           className="bg-emerald-500 hover:bg-emerald-700 uppercase font-semibold text-white text-xs w-full block p-2"
         >
@@ -30,7 +30,7 @@ const Clientes = ({ cliente, handleEliminar }) => {
         </button>
 
         <button
-          onClick={() => navigate(`/clientes/editar/${id}`)}
+          onClick={() => navigate(`/editar/${id}`)}
           type="button"
           className="bg-blue-600 hover:bg-blue-800 uppercase font-semibold text-white text-xs w-full block p-2 mt-3"
         >
