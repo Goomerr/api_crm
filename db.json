@@ -1,0 +1,28 @@
+{
+  "clientes": [
+    {
+      "nombre": "Felipito Tacatum",
+      "empresa": "Tacatun e hijos",
+      "email": "taca@taca.com",
+      "tel": "984165161145",
+      "notas": "tacatataa",
+      "id": 3
+    },
+    {
+      "nombre": "Dieguito Culito Seco",
+      "empresa": "Seco y Hermanos",
+      "email": "culo@seco.com",
+      "tel": "4946161",
+      "notas": "Más cosas",
+      "id": 4
+    },
+    {
+      "nombre": "Antoñita Mala Pata",
+      "empresa": "Mala e Hijos SL",
+      "email": "mal@mal.com",
+      "tel": "51694859844",
+      "notas": "Anotaciones sobre el cliente",
+      "id": 5
+    }
+  ]
+}
